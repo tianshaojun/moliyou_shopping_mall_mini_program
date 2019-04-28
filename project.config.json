@@ -1,0 +1,61 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.97",
+	"appid": "wx83735ca894a2bd5a",
+	"projectname": "%E9%AD%94%E5%8A%9B%E6%B8%B8%E5%95%86%E5%9F%8E4.0",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/member/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "拼团",
+					"pathName": "pages/groups/groups_detail/index",
+					"query": "pages/groups/groups_detail/index"
+				},
+				{
+					"id": -1,
+					"name": "pages/goods/index/index",
+					"pathName": "pages/goods/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/order/pay/index",
+					"pathName": "pages/order/pay/index"
+				}
+			]
+		}
+	}
+}

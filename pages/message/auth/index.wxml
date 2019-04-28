@@ -1,0 +1,21 @@
+<view class='zhez'>
+    <view class="cent">
+        <view class="logocon">
+            <image class="logimg" src="/static/images/lg.png"></image>
+            <view>商城小程序</view>
+        </view>
+        <view class="qxtitle padleft30">登录后应用将获得以下权限</view>
+        <view class="xxcon padleft30">
+            <text class="dians"></text>
+            获得您的公开信息（昵称、头像等）
+        </view>
+        <block wx:if="{{canIUse}}">
+            <button type="primary" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+                确认登录
+            </button>
+        </block>
+        <block wx:else>
+            <view class='sjts'>请升级微信版本</view>
+        </block>
+    </view>
+</view>

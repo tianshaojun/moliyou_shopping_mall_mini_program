@@ -1,0 +1,9 @@
+{
+  "extEnable": true,
+  "extAppid": "wx83735ca894a2bd5a",
+  "ext": {
+    "appid": "wx83735ca894a2bd5a",
+    "api":"https://test-sso-xiao.vdongchina.com/app/ewei_shopv2_api.php?i=8",
+    "approot": "test-sso-xiao.vdongchina.com/addons/ewei_shopv2/"
+  }
+}
